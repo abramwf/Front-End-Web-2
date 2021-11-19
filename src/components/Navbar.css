@@ -1,0 +1,43 @@
+.Navbar {
+  background-color: rgb(200, 199, 202);
+  display: flex;
+  min-height: 5vh;
+  padding-top: 10px;
+  border-bottom: solid 4px;
+  border-top: solid 4px;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(152, 151, 155);
+}
+
+.Navbar ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.Navbar ul li h2 {
+    display: inline;
+    color: rgb(68, 66, 66);
+    font-size: 37px;
+}
+
+.Navbar ul li .ActivedHome {
+    color: rgb(68, 66, 66) ;
+    display: inline-block;
+}
+
+.Navbar ul li .ActivedWL {
+    color: white;
+    display: inline-flex;
+}
+
+.Navbar ul li a {
+    cursor: pointer;
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.Navbar ul li a:hover {
+    color: white;
+}

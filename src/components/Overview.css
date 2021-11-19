@@ -1,0 +1,28 @@
+.OverviewHeader {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.OverviewContent {
+    margin: 2em;
+    background-color: rgb(209, 204, 204);
+    border: 1px solid;
+    border-color: rgb(194, 194, 194);
+    border-top-right-radius:35px ;
+    border-bottom-right-radius:35px ;
+}
+
+.OverviewPoster {
+    float: left;
+    margin-right: 1em;
+}
+
+.BackButton:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.OverviewPoster {
+    width: 400px;
+    height: 550px;
+}
